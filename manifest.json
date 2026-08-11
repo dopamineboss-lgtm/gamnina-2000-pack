@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "version":  "gamnina-2000-2026.08.11-091704",
+    "version":  "gamnina-2000-2026.08.11-110344",
     "bundleResource":  "",
     "files":  [
                   {
@@ -820,10 +820,10 @@
                       "size":  33683
                   },
                   {
-                      "path":  "mods/arcane-patternworks-0.5.0-alpha.jar",
-                      "url":  "client/mods/arcane-patternworks-0.5.0-alpha.jar",
-                      "sha256":  "264f045b841384e9bea424eab50c13adcb88109abacc258d25c47272c2928724",
-                      "size":  649793
+                      "path":  "mods/arcane-patternworks-0.6.0-alpha.jar",
+                      "url":  "client/mods/arcane-patternworks-0.6.0-alpha.jar",
+                      "sha256":  "ade07bce01cd21bb49785db524feba35cac738037955ea6e14a16d8f1567b2fa",
+                      "size":  684031
                   },
                   {
                       "path":  "mods/Baubles-1.12-1.5.2.jar",
