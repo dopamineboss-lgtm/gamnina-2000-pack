@@ -1,0 +1,155 @@
+{
+  "images": {
+    "menu_panel": {
+      "image": "gamnina2000:textures/gui/menu-panel-v2.png",
+      "posX": 16,
+      "posY": 35,
+      "width": 216,
+      "height": 210,
+      "alignment": "top_left"
+    },
+    "menu_logo": {
+      "image": "gamnina2000:textures/gui/menu-logo-v2.png",
+      "posX": -254,
+      "posY": 22,
+      "width": 244,
+      "height": 61,
+      "alignment": "top_right"
+    }
+  },
+  "buttons": {
+    "play_server": {
+      "text": "\u00a7l\u0418\u0413\u0420\u0410\u0422\u042c \u041d\u0410 \u0421\u0415\u0420\u0412\u0415\u0420\u0415",
+      "hoverText": "\u00a7l104.234.6.148:25946",
+      "posX": 32,
+      "posY": 54,
+      "width": 184,
+      "height": 24,
+      "alignment": "top_left",
+      "texture": "gamnina2000:textures/gui/neon-button-v2.png",
+      "imageWidth": 184,
+      "imageHeight": 24,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 13762306,
+      "shadow": true,
+      "action": { "type": "connectToServer", "ip": "104.234.6.148:25946", "serverName": "Gamnina 2000" }
+    },
+    "server_list": {
+      "text": "\u00a7l\u041a\u0410\u0420\u0422\u041e\u0427\u041a\u0410 \u0421\u0415\u0420\u0412\u0415\u0420\u0410",
+      "hoverText": "\u00a7b104.234.6.148:25946",
+      "posX": 32,
+      "posY": 84,
+      "width": 184,
+      "height": 24,
+      "alignment": "top_left",
+      "texture": "gamnina2000:textures/gui/neon-button-v2.png",
+      "imageWidth": 184,
+      "imageHeight": 24,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 13762306,
+      "shadow": true,
+      "action": { "type": "openGui", "gui": "multiplayer" }
+    },
+    "singleplayer": {
+      "text": "\u041e\u0414\u0418\u041d\u041e\u0427\u041d\u0410\u042f \u0418\u0413\u0420\u0410",
+      "posX": 32,
+      "posY": 114,
+      "width": 184,
+      "height": 24,
+      "alignment": "top_left",
+      "texture": "gamnina2000:textures/gui/neon-button-v2.png",
+      "imageWidth": 184,
+      "imageHeight": 24,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 13762306,
+      "shadow": true,
+      "action": { "type": "openGui", "gui": "singleplayer" }
+    },
+    "mods": {
+      "text": "\u041c\u041e\u0414\u042b",
+      "posX": 32,
+      "posY": 144,
+      "width": 184,
+      "height": 24,
+      "alignment": "top_left",
+      "texture": "gamnina2000:textures/gui/neon-button-v2.png",
+      "imageWidth": 184,
+      "imageHeight": 24,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 13762306,
+      "shadow": true,
+      "action": { "type": "openGui", "gui": "mods" }
+    },
+    "options": {
+      "text": "\u041d\u0410\u0421\u0422\u0420\u041e\u0419\u041a\u0418",
+      "posX": 32,
+      "posY": 174,
+      "width": 184,
+      "height": 24,
+      "alignment": "top_left",
+      "texture": "gamnina2000:textures/gui/neon-button-v2.png",
+      "imageWidth": 184,
+      "imageHeight": 24,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 13762306,
+      "shadow": true,
+      "action": { "type": "openGui", "gui": "options" }
+    },
+    "quit": {
+      "text": "\u0412\u042b\u0419\u0422\u0418",
+      "posX": 32,
+      "posY": 204,
+      "width": 184,
+      "height": 24,
+      "alignment": "top_left",
+      "texture": "gamnina2000:textures/gui/neon-button-v2.png",
+      "imageWidth": 184,
+      "imageHeight": 24,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 16739759,
+      "shadow": true,
+      "action": { "type": "quit" }
+    }
+  },
+  "labels": {
+    "edition": {
+      "text": "\u00a7d\u00a7lNEON POOP EDITION  \u00a77/  \u00a7bMINECRAFT 1.12.2",
+      "posX": 122,
+      "posY": 90,
+      "alignment": "top_center",
+      "anchor": "middle",
+      "fontSize": 0.78,
+      "color": 16777215,
+      "hoverColor": 16777215
+    },
+    "server_status": {
+      "text": "\u00a7d\u25c6 \u00a7f\u0421\u0415\u0420\u0412\u0415\u0420  \u00a77/  \u00a7b104.234.6.148:25946",
+      "posX": 122,
+      "posY": 109,
+      "alignment": "top_center",
+      "anchor": "middle",
+      "fontSize": 0.68,
+      "color": 16777215,
+      "hoverColor": 16777215
+    },
+    "footer": {
+      "text": "\u00a77GAMNINA 2000  /  FORGE 14.23.5.2859  /  LICENSED",
+      "posX": 0,
+      "posY": -9,
+      "alignment": "bottom_center",
+      "anchor": "middle",
+      "fontSize": 0.62,
+      "color": 12632256,
+      "hoverColor": 12632256
+    }
+  },
+  "other": {
+    "panorama": {
+      "images": "gamnina2000:textures/gui/panorama/panorama_%c.png",
+      "blur": true,
+      "gradient": true,
+      "animate": true,
+      "animationSpeed": 1
+    }
+  }
+}

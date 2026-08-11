@@ -1,0 +1,16 @@
+GAMNINA 2000 — GITHUB UPDATE REPOSITORY
+
+GitHub owner: dopamineboss-lgtm
+Repository name: gamnina-2000-pack
+Required branch: main
+Repository visibility: PUBLIC
+
+Manifest URL used by launcher:
+https://raw.githubusercontent.com/dopamineboss-lgtm/gamnina-2000-pack/main/manifest.json
+
+Direct launcher URL after the first push:
+https://raw.githubusercontent.com/dopamineboss-lgtm/gamnina-2000-pack/main/launcher/Gamnina2000Launcher.exe
+
+Do not rename the repository, owner, main branch, manifest.json or client folder
+without rebuilding the launcher configuration.
+
