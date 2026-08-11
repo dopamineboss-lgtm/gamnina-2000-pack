@@ -20,7 +20,7 @@
   "buttons": {
     "play_server": {
       "text": "\u00a7l\u0418\u0413\u0420\u0410\u0422\u042c \u041d\u0410 \u0421\u0415\u0420\u0412\u0415\u0420\u0415",
-      "hoverText": "\u00a7l104.234.6.148:25946",
+      "hoverText": "\u00a7l199.231.161.226:50202",
       "posX": 32,
       "posY": 54,
       "width": 184,
@@ -32,11 +32,11 @@
       "normalTextColor": 16777215,
       "hoverTextColor": 13762306,
       "shadow": true,
-      "action": { "type": "connectToServer", "ip": "104.234.6.148:25946", "serverName": "Gamnina 2000" }
+      "action": { "type": "connectToServer", "ip": "199.231.161.226:50202", "serverName": "Gamnina 2000" }
     },
     "server_list": {
       "text": "\u00a7l\u041a\u0410\u0420\u0422\u041e\u0427\u041a\u0410 \u0421\u0415\u0420\u0412\u0415\u0420\u0410",
-      "hoverText": "\u00a7b104.234.6.148:25946",
+      "hoverText": "\u00a7b199.231.161.226:50202",
       "posX": 32,
       "posY": 84,
       "width": 184,
@@ -123,7 +123,7 @@
       "hoverColor": 16777215
     },
     "server_status": {
-      "text": "\u00a7d\u25c6 \u00a7f\u0421\u0415\u0420\u0412\u0415\u0420  \u00a77/  \u00a7b104.234.6.148:25946",
+      "text": "\u00a7d\u25c6 \u00a7f\u0421\u0415\u0420\u0412\u0415\u0420  \u00a77/  \u00a7b199.231.161.226:50202",
       "posX": 122,
       "posY": 109,
       "alignment": "top_center",

@@ -1,5 +1,5 @@
 schema=1
-version=1.13.0.0
+version=1.13.1.0
 url=https://raw.githubusercontent.com/dopamineboss-lgtm/gamnina-2000-pack/main/launcher/Gamnina2000Core.exe
-sha256=6c5671f56e4d67f80f3603b74080cf4dca439251dcfae249dfde60dfa7b24658
+sha256=c9cc37d1262b7e222b429f384673f208438c6967dd4cdd3f401377c59d3c4dfa
 size=76859146

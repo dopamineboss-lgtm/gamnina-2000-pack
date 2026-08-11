@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "version":  "gamnina-2000-2026.08.11-081353",
+    "version":  "gamnina-2000-2026.08.11-085925",
     "bundleResource":  "",
     "files":  [
                   {
@@ -168,8 +168,8 @@
                   {
                       "path":  "config/CustomMainMenu/mainmenu.json",
                       "url":  "client/config/CustomMainMenu/mainmenu.json",
-                      "sha256":  "4790dba1d42f9f8921567e71db55f5ac589a1c2571c7bb04fb86a260fc2a9c83",
-                      "size":  4510
+                      "sha256":  "cc057bad57459e0c0475040d1f88589eef1dd2711ddf5aa8208adf7dfcfe1579",
+                      "size":  4518
                   },
                   {
                       "path":  "config/DummyCore.cfg",
@@ -1998,8 +1998,8 @@
                   {
                       "path":  "servers.dat",
                       "url":  "client/servers.dat",
-                      "sha256":  "5cbeac298d2a263713c3c4bea8eeab2fdfadc4ee6e2659f28757d17040ea5977",
-                      "size":  16960
+                      "sha256":  "7ba9a46fe722b2b127877bb2e122fa0e062d65b713e452182f5e9a9b594d5412",
+                      "size":  16921
                   },
                   {
                       "path":  "shaderpacks/MakeUp-UltraFast-9.5c.zip",
