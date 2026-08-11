@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "version":  "gamnina-2000-2026.08.11-085925",
+    "version":  "gamnina-2000-2026.08.11-090836",
     "bundleResource":  "",
     "files":  [
                   {
@@ -932,6 +932,12 @@
                       "url":  "client/mods/CleanView_1.12.2_v1.jar",
                       "sha256":  "680709fe475d54afa94bd59b91087770c496f0ef095ac7ea741d591e97161b51",
                       "size":  8884
+                  },
+                  {
+                      "path":  "mods/Clumps-3.1.2.jar",
+                      "url":  "client/mods/Clumps-3.1.2.jar",
+                      "sha256":  "f3ce670e0087f4c6b770fd05ae5c3dfd8462f74c62397932ea72954d1c6c8df4",
+                      "size":  13792
                   },
                   {
                       "path":  "mods/CodeChickenLib_1.12.2_3.2.3.358_universal.jar",
