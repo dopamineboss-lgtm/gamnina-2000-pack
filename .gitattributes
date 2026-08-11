@@ -17,3 +17,7 @@
 *.txt text eol=lf
 *.ps1 text eol=crlf
 *.cmd text eol=crlf
+
+# Launcher manifests hash the exact bytes in client/. Git must never rewrite
+# line endings there, otherwise raw.githubusercontent.com serves another hash.
+/client/** -text
