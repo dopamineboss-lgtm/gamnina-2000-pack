@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "version":  "gamnina-2000-2026.08.12-101756",
+    "version":  "gamnina-2000-2026.08.12-114714",
     "bundleResource":  "",
     "files":  [
                   {
@@ -114,8 +114,8 @@
                   {
                       "path":  "config/codechickenlib.cfg",
                       "url":  "client/config/codechickenlib.cfg",
-                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                      "size":  0
+                      "sha256":  "3e60e870987bb2a5ae5b4aaab677534cc276ef22de1ce21b2651280781b3baeb",
+                      "size":  415
                   },
                   {
                       "path":  "config/cofh/core/client.cfg",
@@ -754,16 +754,16 @@
                       "size":  4470
                   },
                   {
-                      "path":  "mods/!mixinbooter-10.7.jar",
-                      "url":  "client/mods/!mixinbooter-10.7.jar",
-                      "sha256":  "8bb53080aede2d2b1e1c5f713bbf49a38f20add8caa3d52fabcdf8a536b55a18",
-                      "size":  2383999
+                      "path":  "mods/!mixinbooter-11.13.jar",
+                      "url":  "client/mods/!mixinbooter-11.13.jar",
+                      "sha256":  "07418f686bf683e2b0ffe721be657a219856687d395807f2515731def998ee65",
+                      "size":  2449583
                   },
                   {
-                      "path":  "mods/_supermartijn642corelib-1.1.18a-forge-mc1.12 (1).jar",
-                      "url":  "client/mods/_supermartijn642corelib-1.1.18a-forge-mc1.12%20(1).jar",
-                      "sha256":  "ba6a04d2b6bf5cb962ae650c1c063deb483317f07b9194f6ca9d6642183808cd",
-                      "size":  1479141
+                      "path":  "mods/_supermartijn642corelib-1.1.24-forge-mc1.12.jar",
+                      "url":  "client/mods/_supermartijn642corelib-1.1.24-forge-mc1.12.jar",
+                      "sha256":  "6fe950c8deefe916be755cc9a7a9c20e0d53fb4e07789589fae37b9e9f6512e6",
+                      "size":  1525910
                   },
                   {
                       "path":  "mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar",
@@ -778,10 +778,10 @@
                       "size":  151410
                   },
                   {
-                      "path":  "mods/AdditionalEnchantedMiner-1.12.2-12.5.4.jar",
-                      "url":  "client/mods/AdditionalEnchantedMiner-1.12.2-12.5.4.jar",
-                      "sha256":  "1769f2e1d1096e865a5b27294f2a9c78b2530cb4eb2f8d894d4cde5b229022e2",
-                      "size":  2104386
+                      "path":  "mods/AdditionalEnchantedMiner-1.12.2-12.5.7.jar",
+                      "url":  "client/mods/AdditionalEnchantedMiner-1.12.2-12.5.7.jar",
+                      "sha256":  "9f058a429de6b36b2446d2a5eb722f2084afc8b474b547a45eac1a8614b9ad43",
+                      "size":  2101518
                   },
                   {
                       "path":  "mods/Advanced+Solar+Panels-4.3.0.jar",
@@ -814,10 +814,10 @@
                       "size":  212711
                   },
                   {
-                      "path":  "mods/AmbientSounds_v3.0.9_mc1.12.2.jar",
-                      "url":  "client/mods/AmbientSounds_v3.0.9_mc1.12.2.jar",
-                      "sha256":  "ec8c1797f26bee3a901999826df5b609213d42cc0f3d365be8d44aa4e13992bb",
-                      "size":  76506553
+                      "path":  "mods/AmbientSounds_v3.1.7_mc1.12.2.jar",
+                      "url":  "client/mods/AmbientSounds_v3.1.7_mc1.12.2.jar",
+                      "sha256":  "8f9ea1605d2a141b269bbfd5e9c98ae06c7f47d13283454c75258e68e381d9ed",
+                      "size":  76507814
                   },
                   {
                       "path":  "mods/antighost-1.12-forge14.21.1.2387-1.1.1.jar",
@@ -874,52 +874,52 @@
                       "size":  4746208
                   },
                   {
-                      "path":  "mods/Bookshelf-1.12.2-2.3.585.jar",
-                      "url":  "client/mods/Bookshelf-1.12.2-2.3.585.jar",
-                      "sha256":  "1418ab830dc3adc1463e4d01e5eed39ced3a22527988b7dce1b47e7cb010576f",
-                      "size":  266512
+                      "path":  "mods/Bookshelf-1.12.2-2.3.590.jar",
+                      "url":  "client/mods/Bookshelf-1.12.2-2.3.590.jar",
+                      "sha256":  "043afbddfd567e753a893f5a8f0e052db7c45209a08d09d9dcf32cadca764109",
+                      "size":  266636
                   },
                   {
-                      "path":  "mods/buildcraft-builders-7.99.24.1.jar",
-                      "url":  "client/mods/buildcraft-builders-7.99.24.1.jar",
-                      "sha256":  "ee204af6c32a0051c40ac09a66691db8f3713c2bbf496770746a70f42184c6d1",
-                      "size":  505801
+                      "path":  "mods/buildcraft-builders-7.99.24.8.jar",
+                      "url":  "client/mods/buildcraft-builders-7.99.24.8.jar",
+                      "sha256":  "ed5dc69043aaae2d534c242daf03d5a7300da565afc0291d1201c2f6717a2916",
+                      "size":  509442
                   },
                   {
-                      "path":  "mods/buildcraft-core-7.99.24.1.jar",
-                      "url":  "client/mods/buildcraft-core-7.99.24.1.jar",
-                      "sha256":  "d4a56bae7f04ca40784173bf037795db542fd585c653c2dcf2d59c15431616fc",
-                      "size":  2760711
+                      "path":  "mods/buildcraft-core-7.99.24.8.jar",
+                      "url":  "client/mods/buildcraft-core-7.99.24.8.jar",
+                      "sha256":  "277c083b0058c501398d1ae8c553154d9be8489edd014ae2095769c2f370033f",
+                      "size":  2823423
                   },
                   {
-                      "path":  "mods/buildcraft-energy-7.99.24.1.jar",
-                      "url":  "client/mods/buildcraft-energy-7.99.24.1.jar",
-                      "sha256":  "9948e09c9c34d8e4d17d3dbe539dbfd8a54dfa83153f600d523dda056dab3919",
-                      "size":  201750
+                      "path":  "mods/buildcraft-energy-7.99.24.8.jar",
+                      "url":  "client/mods/buildcraft-energy-7.99.24.8.jar",
+                      "sha256":  "3c4e94b13c761960ba70321ecec587b7711619beabae02cd3e1a2a0114dc96de",
+                      "size":  209778
                   },
                   {
-                      "path":  "mods/buildcraft-factory-7.99.24.1.jar",
-                      "url":  "client/mods/buildcraft-factory-7.99.24.1.jar",
-                      "sha256":  "2a7db3fd989513604812ac4a1fb0478ddbd9fbc0147aa36ad2edd39d168e6072",
-                      "size":  240131
+                      "path":  "mods/buildcraft-factory-7.99.24.8.jar",
+                      "url":  "client/mods/buildcraft-factory-7.99.24.8.jar",
+                      "sha256":  "39d6f1a209dcfcd2a9bc3b58eadf210875b57f8a6825f2ea764ff5e5311097c5",
+                      "size":  243225
                   },
                   {
-                      "path":  "mods/buildcraft-robotics-7.99.24.1.jar",
-                      "url":  "client/mods/buildcraft-robotics-7.99.24.1.jar",
-                      "sha256":  "8d09e20cc88941bf84c664ed259366f7a97507e892d96a273de761b79f0d17e7",
+                      "path":  "mods/buildcraft-robotics-7.99.24.8.jar",
+                      "url":  "client/mods/buildcraft-robotics-7.99.24.8.jar",
+                      "sha256":  "f76fc1e51ec3fb6ed2ba382711c5aca190d3c75d2213140ea443905920783187",
                       "size":  114902
                   },
                   {
-                      "path":  "mods/buildcraft-silicon-7.99.24.1.jar",
-                      "url":  "client/mods/buildcraft-silicon-7.99.24.1.jar",
-                      "sha256":  "863373cb55ccfde79c69cf7e398a9bfb0f8efa79c93bdf60af491e4f624d02fd",
-                      "size":  286910
+                      "path":  "mods/buildcraft-silicon-7.99.24.8.jar",
+                      "url":  "client/mods/buildcraft-silicon-7.99.24.8.jar",
+                      "sha256":  "20d83a2644dda2fcba89fe4cba93a203ed6e8576f1bcfedd27746fbf63717335",
+                      "size":  299247
                   },
                   {
-                      "path":  "mods/buildcraft-transport-7.99.24.1.jar",
-                      "url":  "client/mods/buildcraft-transport-7.99.24.1.jar",
-                      "sha256":  "478275de686836baac7b8f0758843a6d854e688f61704c0e4c8bb7881235972f",
-                      "size":  502364
+                      "path":  "mods/buildcraft-transport-7.99.24.8.jar",
+                      "url":  "client/mods/buildcraft-transport-7.99.24.8.jar",
+                      "sha256":  "72470910decc0a256fbc5a63c76000002c34e3ce72559bc6cec674e15719df1c",
+                      "size":  543349
                   },
                   {
                       "path":  "mods/carryon-1.12.2-1.12.7.23.jar",
@@ -928,22 +928,22 @@
                       "size":  309188
                   },
                   {
-                      "path":  "mods/ChickenChunks_1.12_2.4.0.70_universal.jar",
-                      "url":  "client/mods/ChickenChunks_1.12_2.4.0.70_universal.jar",
-                      "sha256":  "ca9aa5730584a190b1cb9718f5f87a159aaa302f241df5a0d89f44fe8f8f1b4a",
-                      "size":  133425
+                      "path":  "mods/ChickenChunks-1.12.2-2.4.2.74-universal.jar",
+                      "url":  "client/mods/ChickenChunks-1.12.2-2.4.2.74-universal.jar",
+                      "sha256":  "62c3224d41e24b9ac04661e3d5240bf50b85349e43fd25e30bb2078c152d212f",
+                      "size":  134367
                   },
                   {
-                      "path":  "mods/ChunkAnimator_MC1.12_1.2.jar",
-                      "url":  "client/mods/ChunkAnimator_MC1.12_1.2.jar",
-                      "sha256":  "bbaa2013007212b2c23ac63fa7d18ca657b67fceb7fa52f7e648b1152cadc44f",
-                      "size":  25447
+                      "path":  "mods/ChunkAnimator-1.12.2-1.2.1.jar",
+                      "url":  "client/mods/ChunkAnimator-1.12.2-1.2.1.jar",
+                      "sha256":  "a41da9077db8709be752f02e429b5af572fb7662b5713fad4e672f0c29981855",
+                      "size":  24940
                   },
                   {
-                      "path":  "mods/CleanView_1.12.2_v1.jar",
-                      "url":  "client/mods/CleanView_1.12.2_v1.jar",
-                      "sha256":  "680709fe475d54afa94bd59b91087770c496f0ef095ac7ea741d591e97161b51",
-                      "size":  8884
+                      "path":  "mods/CleanView-1.12.2-v1c.jar",
+                      "url":  "client/mods/CleanView-1.12.2-v1c.jar",
+                      "sha256":  "caec9fa3d114074b735a2824ef52fe2adcc8b88eefa1481a1d70807186b20c11",
+                      "size":  10798
                   },
                   {
                       "path":  "mods/Clumps-3.1.2.jar",
@@ -958,16 +958,16 @@
                       "size":  704330
                   },
                   {
-                      "path":  "mods/CoFHCore-1.12.2-4.6.3.27-universal.jar",
-                      "url":  "client/mods/CoFHCore-1.12.2-4.6.3.27-universal.jar",
-                      "sha256":  "d71bf404bd9031774f6ad49f4844a6aac008a9d830f8510fa67ea81404e990ed",
-                      "size":  847938
+                      "path":  "mods/CoFHCore-1.12.2-4.6.6.1-universal.jar",
+                      "url":  "client/mods/CoFHCore-1.12.2-4.6.6.1-universal.jar",
+                      "sha256":  "e07b0c48def9ce8cfaa4cf7a7c656bf7f7d6815f74fbcc2957dd43efa78486a9",
+                      "size":  848187
                   },
                   {
-                      "path":  "mods/CoFHWorld-1.12.2-1.3.1.7-universal.jar",
-                      "url":  "client/mods/CoFHWorld-1.12.2-1.3.1.7-universal.jar",
-                      "sha256":  "5acc3d088317e0db9a50a7ee3f8a0018dd83ef398c5a8682121497b0a9cb177a",
-                      "size":  532040
+                      "path":  "mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+                      "url":  "client/mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+                      "sha256":  "f10cd57075690ecbe52094f8af0d2a5af12f89c82b7c6eb73d3d090d74206ea0",
+                      "size":  505987
                   },
                   {
                       "path":  "mods/collective-1.12.2-3.0.jar",
@@ -982,16 +982,22 @@
                       "size":  894824
                   },
                   {
-                      "path":  "mods/Controlling-3.0.12.2.jar",
-                      "url":  "client/mods/Controlling-3.0.12.2.jar",
-                      "sha256":  "0f8c848d0e715142cb9e8af9a9b5cf369c89ab4bda784c200538083e556ef3a6",
-                      "size":  28932
+                      "path":  "mods/Controlling-3.0.12.4.jar",
+                      "url":  "client/mods/Controlling-3.0.12.4.jar",
+                      "sha256":  "f5edd4793f96cd5a6f31aecbd3030093b367a51afba5d6f7281756d0f9c03786",
+                      "size":  34383
                   },
                   {
                       "path":  "mods/CraftingTableIV-1.12.2-1.5.123.jar",
                       "url":  "client/mods/CraftingTableIV-1.12.2-1.5.123.jar",
                       "sha256":  "2c1b5d5f2b328ddf20f415c316c5bc9caf0d163e036be071d8ee6ef6b410b7ba",
                       "size":  158747
+                  },
+                  {
+                      "path":  "mods/CreativeCore_v1.10.71_mc1.12.2.jar",
+                      "url":  "client/mods/CreativeCore_v1.10.71_mc1.12.2.jar",
+                      "sha256":  "b0ef34ec816fa91451f8d4b62c016c159ab3559d6f75870790d1215943f009d5",
+                      "size":  1321137
                   },
                   {
                       "path":  "mods/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
@@ -1030,10 +1036,10 @@
                       "size":  17072
                   },
                   {
-                      "path":  "mods/EnergyControl-1.12.2-0.1.15.jar",
-                      "url":  "client/mods/EnergyControl-1.12.2-0.1.15.jar",
-                      "sha256":  "826c6100442c0ed39a458c0e5bdf62d4df3fa93cb72fdc2d32cf231678fed37e",
-                      "size":  1444140
+                      "path":  "mods/EnergyControl-1.12.2-0.3.2.jar",
+                      "url":  "client/mods/EnergyControl-1.12.2-0.3.2.jar",
+                      "sha256":  "1741d0099bf0f088aba0b4a265206c313c13e3052fb5aa27ef54bc418f3d44f4",
+                      "size":  1261283
                   },
                   {
                       "path":  "mods/energyconverters_1.12.2_1.3.7.30.jar",
@@ -1042,10 +1048,10 @@
                       "size":  158910
                   },
                   {
-                      "path":  "mods/environmentalcreepers-1.12.2-1.5.0.jar",
-                      "url":  "client/mods/environmentalcreepers-1.12.2-1.5.0.jar",
-                      "sha256":  "e15332ed8db5d73b256d3d63d9bc22b06b86fadd1a1f3135504e5b92ac100b6c",
-                      "size":  25680
+                      "path":  "mods/environmentalcreepers-1.12.2-1.6.0.jar",
+                      "url":  "client/mods/environmentalcreepers-1.12.2-1.6.0.jar",
+                      "sha256":  "a5f646f971af633beade58456c7a9ccc110506c5abac8758cc74ea9f0c724755",
+                      "size":  27403
                   },
                   {
                       "path":  "mods/ExtendedAE-1.12-0.0.1.jar",
@@ -1078,22 +1084,22 @@
                       "size":  6913
                   },
                   {
-                      "path":  "mods/foamfix-0.10.14-1.12.2.jar",
-                      "url":  "client/mods/foamfix-0.10.14-1.12.2.jar",
-                      "sha256":  "376aab403b393ec1b107d339ee48b758851d2f70c90c31d3de0753e7a7f89263",
-                      "size":  242897
+                      "path":  "mods/foamfix-0.10.15-1.12.2.jar",
+                      "url":  "client/mods/foamfix-0.10.15-1.12.2.jar",
+                      "sha256":  "e6752973cf884f96fcd3835fe6c184b3b4180a27fd955ca07c561cf77e837dda",
+                      "size":  229335
                   },
                   {
-                      "path":  "mods/Forgelin_1.8.2.jar",
-                      "url":  "client/mods/Forgelin_1.8.2.jar",
-                      "sha256":  "4192515f03b7c7132cca8adfcb9dc6bc0c3d50714582f2c5290d673485b8737d",
-                      "size":  5124663
+                      "path":  "mods/Forgelin-1.8.4.jar",
+                      "url":  "client/mods/Forgelin-1.8.4.jar",
+                      "sha256":  "ccfcad80ef73ab815875a91979128ed58c262c479c7c0e5da65b225954bee197",
+                      "size":  6278399
                   },
                   {
-                      "path":  "mods/ForgeMultipart-1.12.2-2.6.1.81-universal.jar",
-                      "url":  "client/mods/ForgeMultipart-1.12.2-2.6.1.81-universal.jar",
-                      "sha256":  "53cc0991a134ab0c4bb5bc167b0fe20207317ea1b15f7db1bc8b60e3384eaf01",
-                      "size":  1304914
+                      "path":  "mods/ForgeMultipart-1.12.2-2.6.2.83-universal.jar",
+                      "url":  "client/mods/ForgeMultipart-1.12.2-2.6.2.83-universal.jar",
+                      "sha256":  "25718bd80799a608c45299d13d86e5d67248f07a3c00657c690948b1821835ce",
+                      "size":  1304958
                   },
                   {
                       "path":  "mods/FTBLib-5.4.7.2.jar",
@@ -1114,10 +1120,10 @@
                       "size":  345616
                   },
                   {
-                      "path":  "mods/HammerLib-1.12.2-2.0.6.31.jar",
-                      "url":  "client/mods/HammerLib-1.12.2-2.0.6.31.jar",
-                      "sha256":  "9a14746662845a514ce4adacd1e21b86da1d9c079c9032eeebb52ea17077c7a9",
-                      "size":  2434333
+                      "path":  "mods/HammerLib-1.12.2-12.2.66.jar",
+                      "url":  "client/mods/HammerLib-1.12.2-12.2.66.jar",
+                      "sha256":  "53f51e02542377f8d981c3e7bcaf9ec5903b536302a1fccf76d5e4fccdfb34e1",
+                      "size":  2588367
                   },
                   {
                       "path":  "mods/Hwyla-1.8.26-B41_1.12.2.jar",
@@ -1138,10 +1144,10 @@
                       "size":  10301
                   },
                   {
-                      "path":  "mods/inventorysorter_1.12.2_1.12.049.jar",
-                      "url":  "client/mods/inventorysorter_1.12.2_1.12.049.jar",
-                      "sha256":  "6d52c5956c95080096d529643ebe8298c8d973e3d92613f6005c7e6da853de01",
-                      "size":  37028
+                      "path":  "mods/inventorysorter-1.12.2-1.13.3+57.jar",
+                      "url":  "client/mods/inventorysorter-1.12.2-1.13.3%2B57.jar",
+                      "sha256":  "24616b78ba3f2fbf2ed77e6ff5121712c8cf35288dbbf3199a2304547bd4bfc9",
+                      "size":  47765
                   },
                   {
                       "path":  "mods/ironchest-1.12.2-7.0.72.847.jar",
@@ -1156,10 +1162,10 @@
                       "size":  455763
                   },
                   {
-                      "path":  "mods/jei_1.12.2-4.16.5.1023.jar",
-                      "url":  "client/mods/jei_1.12.2-4.16.5.1023.jar",
-                      "sha256":  "a280179a575b64cf73fffe9fe7b1a580e51bc12ca027ef35d19a2334d5134a58",
-                      "size":  669438
+                      "path":  "mods/jei_1.12.2-4.16.5.1027.jar",
+                      "url":  "client/mods/jei_1.12.2-4.16.5.1027.jar",
+                      "sha256":  "6c267f79019859f75a280714fd187204bc5261ee6e15a8ceb06508b042e10063",
+                      "size":  678888
                   },
                   {
                       "path":  "mods/JustEnoughEnergistics-1.12.2-1.0.8.jar",
@@ -1174,10 +1180,10 @@
                       "size":  222270
                   },
                   {
-                      "path":  "mods/LibraryEx-1.12.2-1.1.3.jar",
-                      "url":  "client/mods/LibraryEx-1.12.2-1.1.3.jar",
-                      "sha256":  "b86ca90714a38af714e23a6b21996cd4b0ea8a63d524046d40d42ad015296026",
-                      "size":  463952
+                      "path":  "mods/LibraryEx-1.12.2-1.2.2.jar",
+                      "url":  "client/mods/LibraryEx-1.12.2-1.2.2.jar",
+                      "sha256":  "f76cd42e30f962aa8115b6128c6bf54dd54ded35bcc2fd048f8071d1862cb33f",
+                      "size":  464351
                   },
                   {
                       "path":  "mods/llibrary-1.7.20-1.12.2.jar",
@@ -1234,10 +1240,10 @@
                       "size":  8002
                   },
                   {
-                      "path":  "mods/mobends_0.24_for_MC_1.12.jar",
-                      "url":  "client/mods/mobends_0.24_for_MC_1.12.jar",
-                      "sha256":  "a4343879ee8dbb9d65b8d79e371c69c4f749eeb5b855546eb54df629e82eab85",
-                      "size":  669015
+                      "path":  "mods/MoBends_1.12.2-1.2.2-29.09.25-all.jar",
+                      "url":  "client/mods/MoBends_1.12.2-1.2.2-29.09.25-all.jar",
+                      "sha256":  "9e5a2501561a4a592051ad940dc79c05dbb60e6c4f45607187614b14a2809f14",
+                      "size":  2282415
                   },
                   {
                       "path":  "mods/modnametooltip_1.12.2-1.10.1.jar",
@@ -1246,10 +1252,10 @@
                       "size":  12732
                   },
                   {
-                      "path":  "mods/MouseTweaks-2.10-mc1.12.2.jar",
-                      "url":  "client/mods/MouseTweaks-2.10-mc1.12.2.jar",
-                      "sha256":  "77969c0e7f76c078ebb7004642e86746d57f47b7a46237fcb1c06d4a55679448",
-                      "size":  75170
+                      "path":  "mods/MouseTweaks-2.10.1-mc1.12.2.jar",
+                      "url":  "client/mods/MouseTweaks-2.10.1-mc1.12.2.jar",
+                      "sha256":  "5e13315f4e0d0c96b1f9b800a42fecb89f519aca81d556c91df617c8751aa575",
+                      "size":  80528
                   },
                   {
                       "path":  "mods/mowziesmobs-1.5.8.jar",
@@ -1264,10 +1270,10 @@
                       "size":  803400
                   },
                   {
-                      "path":  "mods/NetherEx-1.12.2-2.1.3.jar",
-                      "url":  "client/mods/NetherEx-1.12.2-2.1.3.jar",
-                      "sha256":  "102a647d4eb6b7b8e601fb50054ff8c3400680efef4d303a0250e0e567901744",
-                      "size":  2633323
+                      "path":  "mods/NetherEx-1.12.2-2.2.5.jar",
+                      "url":  "client/mods/NetherEx-1.12.2-2.2.5.jar",
+                      "sha256":  "ab71d3f63d8905727c769ddfe8c4849d735a4d9feb502a9135ce27e16bca815e",
+                      "size":  2650771
                   },
                   {
                       "path":  "mods/NoMoreRecipeConflict-0.13(1.12.2).jar",
@@ -1282,10 +1288,10 @@
                       "size":  31782
                   },
                   {
-                      "path":  "mods/omlib-1.12.2-3.1.3-246.jar",
-                      "url":  "client/mods/omlib-1.12.2-3.1.3-246.jar",
-                      "sha256":  "2a540652fb3e65089127d70c7993d18b0da67d91165bbc4f4d51518720ec71aa",
-                      "size":  213571
+                      "path":  "mods/omlib-1.12.2-3.1.5-256.jar",
+                      "url":  "client/mods/omlib-1.12.2-3.1.5-256.jar",
+                      "sha256":  "f2637d102d778ea317278bc335f9e1d8fdda85d29d022010bc9000cf3a3d900f",
+                      "size":  215479
                   },
                   {
                       "path":  "mods/OptiFine_1.12.2_HD_U_G5.jar",
@@ -1348,10 +1354,10 @@
                       "size":  5750745
                   },
                   {
-                      "path":  "mods/RedstoneFlux-1.12-2.1.0.6-universal.jar",
-                      "url":  "client/mods/RedstoneFlux-1.12-2.1.0.6-universal.jar",
-                      "sha256":  "7d8063471243e161f624abe4ba311d490bd7719aedbcfcf84e555358e19c3e89",
-                      "size":  36278
+                      "path":  "mods/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+                      "url":  "client/mods/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+                      "sha256":  "6ff7f96d076bfaad83fb6ba92ec457b8a76391439663b0cc32a9ec5398345280",
+                      "size":  31802
                   },
                   {
                       "path":  "mods/ReForbidden Magic-1.12.2-v1.1.1.jar",
@@ -1372,16 +1378,16 @@
                       "size":  511085
                   },
                   {
-                      "path":  "mods/ShulkerTooltip_1.12.2_1.5.2.jar",
-                      "url":  "client/mods/ShulkerTooltip_1.12.2_1.5.2.jar",
-                      "sha256":  "f6a4f62cd1e191f2b6def57cc29dce31ea4f59df1de07bac43c74d6bd808c8f9",
-                      "size":  8545
+                      "path":  "mods/ShulkerTooltip-1.9.2.2.jar",
+                      "url":  "client/mods/ShulkerTooltip-1.9.2.2.jar",
+                      "sha256":  "f524c962d4cac7654fc58c774045ac95c26a5d574795db85f4af74369e1d8993",
+                      "size":  10384
                   },
                   {
-                      "path":  "mods/sit_1.12.x_v1.1.1.jar",
-                      "url":  "client/mods/sit_1.12.x_v1.1.1.jar",
-                      "sha256":  "f9e9ea024b8b588f7a2787760a4979f3395a4aaba02de9ffdcdf13b9a7a4cf10",
-                      "size":  5788
+                      "path":  "mods/sit-1.12.2-v1.3.jar",
+                      "url":  "client/mods/sit-1.12.2-v1.3.jar",
+                      "sha256":  "3d4bb6569a06191fd2d8759c0995ae9a48e318a4b24323ecabdac148ab57ffc3",
+                      "size":  10110
                   },
                   {
                       "path":  "mods/SmoothFont-mc1.12.2-2.1.4.jar",
@@ -1402,10 +1408,10 @@
                       "size":  8649
                   },
                   {
-                      "path":  "mods/stg-1.12-1.2.1.jar",
-                      "url":  "client/mods/stg-1.12-1.2.1.jar",
-                      "sha256":  "d8b0a3e26ab925240943ac5ae31173ee05440587dd8fcbbf75a77115dc24555e",
-                      "size":  22100
+                      "path":  "mods/stg-1.12.2-1.2.3.jar",
+                      "url":  "client/mods/stg-1.12.2-1.2.3.jar",
+                      "sha256":  "0ab0cb80822dd58ed83393edff83ac0497e1f12cbf4ceb9dacd963e2a949d2cb",
+                      "size":  24024
                   },
                   {
                       "path":  "mods/tc6aspects4jei-0.0.2a.jar",
@@ -1450,10 +1456,10 @@
                       "size":  206543
                   },
                   {
-                      "path":  "mods/ThaumicAdditions-1.12.2-12.6.7.jar",
-                      "url":  "client/mods/ThaumicAdditions-1.12.2-12.6.7.jar",
-                      "sha256":  "8b267413b172a7ba0f8457e22543ce9ee2bab68b8fff86cea8271b16646e3c6c",
-                      "size":  6370752
+                      "path":  "mods/ThaumicAdditions-1.12.2-12.7.9.jar",
+                      "url":  "client/mods/ThaumicAdditions-1.12.2-12.7.9.jar",
+                      "sha256":  "6d708eab04e3f356a65f6255d287f5c136e5f3fd9b9bd04d4f752514234a8ddd",
+                      "size":  5370199
                   },
                   {
                       "path":  "mods/thaumicapi-1.1.4.jar",
@@ -1468,16 +1474,16 @@
                       "size":  8220792
                   },
                   {
-                      "path":  "mods/thaumicbases-3.3.500.6r.jar",
-                      "url":  "client/mods/thaumicbases-3.3.500.6r.jar",
-                      "sha256":  "bf30f2b6e0db047b4a9ec98585f28df1aeb3481400eda488e7a0cd284e2c97f7",
-                      "size":  3794950
+                      "path":  "mods/thaumicbases-3.6.024.0.jar",
+                      "url":  "client/mods/thaumicbases-3.6.024.0.jar",
+                      "sha256":  "8117c4848def4ba6f9e3dece6b3f1580a6b7539c621ec8ee7a2ce7b110d02cc1",
+                      "size":  3986912
                   },
                   {
-                      "path":  "mods/thaumic-energistics-extended-life-1.12.2-2.3.5.jar",
-                      "url":  "client/mods/thaumic-energistics-extended-life-1.12.2-2.3.5.jar",
-                      "sha256":  "a5b9634673adb52198f07be5892bfc1515f33a6c0df5cb6061f7bfcf5b8cb4a7",
-                      "size":  1101878
+                      "path":  "mods/thaumic-energistics-extended-life-1.12.2-2.5.2.jar",
+                      "url":  "client/mods/thaumic-energistics-extended-life-1.12.2-2.5.2.jar",
+                      "sha256":  "63f87721b746ac9366eb0965a671dee0a2f9b2ced51d6067ce86eadeac81cad2",
+                      "size":  1181262
                   },
                   {
                       "path":  "mods/ThaumicIndustry1.12.2v9.2.jar",
@@ -1522,10 +1528,10 @@
                       "size":  11986
                   },
                   {
-                      "path":  "mods/thaumicwonders-2.3.2.jar",
-                      "url":  "client/mods/thaumicwonders-2.3.2.jar",
-                      "sha256":  "3f64b4abd6bda794bcd31794f11a2c34819e68a2b8c6c362eaa8932253cee641",
-                      "size":  3454032
+                      "path":  "mods/thaumicwonders-2.3.4.jar",
+                      "url":  "client/mods/thaumicwonders-2.3.4.jar",
+                      "sha256":  "f07925d887a9592607f7a40e1aa95a3e94f45a4f57db9c1abd92f268c686ede3",
+                      "size":  3490076
                   },
                   {
                       "path":  "mods/TinkerToolLeveling-1.12.2-1.1.0.jar",
@@ -1594,16 +1600,22 @@
                       "size":  1479535
                   },
                   {
-                      "path":  "mods/Xaeros_Minimap_1.19.4_Forge_1.12.jar",
-                      "url":  "client/mods/Xaeros_Minimap_1.19.4_Forge_1.12.jar",
-                      "sha256":  "48acdba2767d126e50e40ab5175cce84cf28c4901bc487db3d2e9b28c5b7f7ed",
-                      "size":  418716
+                      "path":  "mods/xaerolib-forge-1.12.2-1.7.1.jar",
+                      "url":  "client/mods/xaerolib-forge-1.12.2-1.7.1.jar",
+                      "sha256":  "3f0c61a8a8b80db1177b5c77ccc5f08f0fd08d0991254bbd93b5581776329adf",
+                      "size":  617545
                   },
                   {
-                      "path":  "mods/XaerosWorldMap_1.5.2_Forge_1.12.jar",
-                      "url":  "client/mods/XaerosWorldMap_1.5.2_Forge_1.12.jar",
-                      "sha256":  "5018eb98b2aa5580a6c783b610e462ca74acbf070493871b12341ae0cac078f8",
-                      "size":  229545
+                      "path":  "mods/xaerominimap-forge-1.12.2-26.4.2.jar",
+                      "url":  "client/mods/xaerominimap-forge-1.12.2-26.4.2.jar",
+                      "sha256":  "618009ed65225188335633ae9b1d61afc0dbd6e73ab28d1b4b87549c56c5ff1a",
+                      "size":  2029908
+                  },
+                  {
+                      "path":  "mods/xaeroworldmap-forge-1.12.2-1.44.2.jar",
+                      "url":  "client/mods/xaeroworldmap-forge-1.12.2-1.44.2.jar",
+                      "sha256":  "30e3d1a321dc5e4c523b2e314228126e87df8c461b5ca956a7a32ec067c25154",
+                      "size":  942970
                   },
                   {
                       "path":  "mods/YABBA-1.12.2-1.1.2.54.jar",
@@ -2053,8 +2065,12 @@
     "deletedPaths":  [
                          "config/corpse.cfg",
                          "config/surge.cfg",
+                         "mods/!mixinbooter-10.7.jar",
+                         "mods/_supermartijn642corelib-1.1.18a-forge-mc1.12 (1).jar",
+                         "mods/AdditionalEnchantedMiner-1.12.2-12.5.4.jar",
                          "mods/aetheric-convergence-0.1.0-alpha.jar",
                          "mods/aetheric-convergence-0.2.0-alpha.jar",
+                         "mods/AmbientSounds_v3.0.9_mc1.12.2.jar",
                          "mods/applied-thaumaturgy-matrix-automation-0.1.0-alpha.jar",
                          "mods/arcane-patternworks-0.2.0-alpha.jar",
                          "mods/arcane-patternworks-0.3.0-alpha.jar",
@@ -2064,7 +2080,44 @@
                          "mods/arcane-patternworks-1.0.0.jar",
                          "mods/arcane-patternworks-1.0.1.jar",
                          "mods/arcane-patternworks-1.0.2.jar",
+                         "mods/Bookshelf-1.12.2-2.3.585.jar",
+                         "mods/buildcraft-builders-7.99.24.1.jar",
+                         "mods/buildcraft-core-7.99.24.1.jar",
+                         "mods/buildcraft-energy-7.99.24.1.jar",
+                         "mods/buildcraft-factory-7.99.24.1.jar",
+                         "mods/buildcraft-robotics-7.99.24.1.jar",
+                         "mods/buildcraft-silicon-7.99.24.1.jar",
+                         "mods/buildcraft-transport-7.99.24.1.jar",
+                         "mods/ChickenChunks_1.12_2.4.0.70_universal.jar",
+                         "mods/ChunkAnimator_MC1.12_1.2.jar",
+                         "mods/CleanView_1.12.2_v1.jar",
+                         "mods/CoFHCore-1.12.2-4.6.3.27-universal.jar",
+                         "mods/CoFHWorld-1.12.2-1.3.1.7-universal.jar",
+                         "mods/Controlling-3.0.12.2.jar",
                          "mods/corpse-1.12.2-1.0.8.jar",
-                         "mods/surge-1.12.2-2.0.77.jar"
+                         "mods/EnergyControl-1.12.2-0.1.15.jar",
+                         "mods/environmentalcreepers-1.12.2-1.5.0.jar",
+                         "mods/foamfix-0.10.14-1.12.2.jar",
+                         "mods/Forgelin_1.8.2.jar",
+                         "mods/ForgeMultipart-1.12.2-2.6.1.81-universal.jar",
+                         "mods/HammerLib-1.12.2-2.0.6.31.jar",
+                         "mods/inventorysorter_1.12.2_1.12.049.jar",
+                         "mods/jei_1.12.2-4.16.5.1023.jar",
+                         "mods/LibraryEx-1.12.2-1.1.3.jar",
+                         "mods/mobends_0.24_for_MC_1.12.jar",
+                         "mods/MouseTweaks-2.10-mc1.12.2.jar",
+                         "mods/NetherEx-1.12.2-2.1.3.jar",
+                         "mods/omlib-1.12.2-3.1.3-246.jar",
+                         "mods/RedstoneFlux-1.12-2.1.0.6-universal.jar",
+                         "mods/ShulkerTooltip_1.12.2_1.5.2.jar",
+                         "mods/sit_1.12.x_v1.1.1.jar",
+                         "mods/stg-1.12-1.2.1.jar",
+                         "mods/surge-1.12.2-2.0.77.jar",
+                         "mods/ThaumicAdditions-1.12.2-12.6.7.jar",
+                         "mods/thaumicbases-3.3.500.6r.jar",
+                         "mods/thaumic-energistics-extended-life-1.12.2-2.3.5.jar",
+                         "mods/thaumicwonders-2.3.2.jar",
+                         "mods/Xaeros_Minimap_1.19.4_Forge_1.12.jar",
+                         "mods/XaerosWorldMap_1.5.2_Forge_1.12.jar"
                      ]
 }
