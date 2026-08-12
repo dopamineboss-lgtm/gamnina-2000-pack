@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "version":  "gamnina-2000-2026.08.11-133327",
+    "version":  "gamnina-2000-2026.08.12-002641",
     "bundleResource":  "",
     "files":  [
                   {
@@ -820,10 +820,10 @@
                       "size":  33683
                   },
                   {
-                      "path":  "mods/arcane-patternworks-1.0.0.jar",
-                      "url":  "client/mods/arcane-patternworks-1.0.0.jar",
-                      "sha256":  "186a9773f6569e4203c11bad964fecd60cfccbef7db7189e35fb73f684162061",
-                      "size":  694855
+                      "path":  "mods/arcane-patternworks-1.0.1.jar",
+                      "url":  "client/mods/arcane-patternworks-1.0.1.jar",
+                      "sha256":  "c061387e0042f7439100ce152c1fe8fc890485b60661b95574ddcc9ea03af4c0",
+                      "size":  704685
                   },
                   {
                       "path":  "mods/Baubles-1.12-1.5.2.jar",
@@ -2029,6 +2029,7 @@
                          "mods/arcane-patternworks-0.4.0-alpha.jar",
                          "mods/arcane-patternworks-0.4.1-alpha.jar",
                          "mods/arcane-patternworks-0.6.0-alpha.jar",
+                         "mods/arcane-patternworks-1.0.0.jar",
                          "mods/surge-1.12.2-2.0.77.jar"
                      ]
 }

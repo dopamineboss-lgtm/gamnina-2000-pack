@@ -6,6 +6,7 @@ mods/arcane-patternworks-0.3.0-alpha.jar
 mods/arcane-patternworks-0.4.0-alpha.jar
 mods/arcane-patternworks-0.4.1-alpha.jar
 mods/arcane-patternworks-0.6.0-alpha.jar
+mods/arcane-patternworks-1.0.0.jar
 mods/aetheric-convergence-0.1.0-alpha.jar
 mods/surge-1.12.2-2.0.77.jar
 config/surge.cfg
