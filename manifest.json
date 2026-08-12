@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "version":  "gamnina-2000-2026.08.12-020400",
+    "version":  "gamnina-2000-2026.08.12-091702",
     "bundleResource":  "",
     "files":  [
                   {
@@ -160,12 +160,6 @@
                       "size":  1147
                   },
                   {
-                      "path":  "config/corpse.cfg",
-                      "url":  "client/config/corpse.cfg",
-                      "sha256":  "fe267139d454704fd898b75d296c779e2eb17f35cd5fb4d9f435518284220228",
-                      "size":  304
-                  },
-                  {
                       "path":  "config/CustomMainMenu/mainmenu.json",
                       "url":  "client/config/CustomMainMenu/mainmenu.json",
                       "sha256":  "cc057bad57459e0c0475040d1f88589eef1dd2711ddf5aa8208adf7dfcfe1579",
@@ -298,6 +292,12 @@
                       "size":  11952
                   },
                   {
+                      "path":  "config/instantunify.cfg",
+                      "url":  "client/config/instantunify.cfg",
+                      "sha256":  "4480c7df34890be533308615ed6edc9392b6730862e24960d2d705db0a231bb4",
+                      "size":  1131
+                  },
+                  {
                       "path":  "config/ironchest.cfg",
                       "url":  "client/config/ironchest.cfg",
                       "sha256":  "6069282a9cf2a7047073120d602c7f54e6b642b52be4329787e95af97246d2be",
@@ -360,8 +360,8 @@
                   {
                       "path":  "config/ProjectRed.cfg",
                       "url":  "client/config/ProjectRed.cfg",
-                      "sha256":  "e820b1564ef8515271b1b62fc72ff0b6a5ea61b7344060c76ac401a1de0aa41d",
-                      "size":  5092
+                      "sha256":  "0bbf11a6101e6c37ba9e94541b237f62ecd66d0b2c761f74181e5eb54105f954",
+                      "size":  5271
                   },
                   {
                       "path":  "config/ProjectRedRelocation.cfg",
@@ -682,6 +682,12 @@
                       "size":  1248
                   },
                   {
+                      "path":  "config/tombmanygraves.cfg",
+                      "url":  "client/config/tombmanygraves.cfg",
+                      "sha256":  "73bcea3794dbe3bcb2b1ad444c0582712547c85ddb523a35f36d332a562a1d6b",
+                      "size":  6365
+                  },
+                  {
                       "path":  "config/treeharvester.cfg",
                       "url":  "client/config/treeharvester.cfg",
                       "sha256":  "6d5e099efc0b15b9ed39178b52e50d9ea9e98248f617655496788acbfca1ac45",
@@ -714,8 +720,8 @@
                   {
                       "path":  "config/unidict/UniDict.cfg",
                       "url":  "client/config/unidict/UniDict.cfg",
-                      "sha256":  "734187b34531e04403ae0912b21e198cd446a9d4d382fd91c7efd0f547ae139e",
-                      "size":  8955
+                      "sha256":  "ca4444b0cc5e404f093d4451a0b755a60f27af221d105270dbc17cdd3a0df53a",
+                      "size":  8940
                   },
                   {
                       "path":  "config/worldedit/worldedit.properties",
@@ -796,10 +802,10 @@
                       "size":  243622
                   },
                   {
-                      "path":  "mods/aetheric-convergence-0.2.0-alpha.jar",
-                      "url":  "client/mods/aetheric-convergence-0.2.0-alpha.jar",
-                      "sha256":  "26ef74b7e87ca72a124657adb648a26b91592b62b5f0ed0f77d8c310fc7d8d44",
-                      "size":  1612214
+                      "path":  "mods/aetheric-convergence-0.3.0-alpha.jar",
+                      "url":  "client/mods/aetheric-convergence-0.3.0-alpha.jar",
+                      "sha256":  "5e2171ea003c671e8ab998d359d47bce045bfbb61965f066067e73542e94862d",
+                      "size":  212711
                   },
                   {
                       "path":  "mods/AmbientSounds_v3.0.9_mc1.12.2.jar",
@@ -976,12 +982,6 @@
                       "size":  28932
                   },
                   {
-                      "path":  "mods/corpse-1.12.2-1.0.8.jar",
-                      "url":  "client/mods/corpse-1.12.2-1.0.8.jar",
-                      "sha256":  "d3993121fb8a11cd50b20b18bd259e9b5b11ffd57e2559415ab06ceb6751958e",
-                      "size":  67966
-                  },
-                  {
                       "path":  "mods/CraftingTableIV-1.12.2-1.5.123.jar",
                       "url":  "client/mods/CraftingTableIV-1.12.2-1.5.123.jar",
                       "sha256":  "2c1b5d5f2b328ddf20f415c316c5bc9caf0d163e036be071d8ee6ef6b410b7ba",
@@ -1124,6 +1124,12 @@
                       "url":  "client/mods/industrialcraft-2-2.8.170-ex112.jar",
                       "sha256":  "5e65adf95ae29d9b93f2e0bfeaee9433706ce0bffd7970da515540ddb912b147",
                       "size":  8356436
+                  },
+                  {
+                      "path":  "mods/instantunify-1.12.2-1.1.2.jar",
+                      "url":  "client/mods/instantunify-1.12.2-1.1.2.jar",
+                      "sha256":  "f627e2149a0277b5dc1402edcb57918e66ecf0ce055df5c5e89980c8133db8a2",
+                      "size":  10301
                   },
                   {
                       "path":  "mods/inventorysorter_1.12.2_1.12.049.jar",
@@ -1514,6 +1520,12 @@
                       "url":  "client/mods/TinkerToolLeveling-1.12.2-1.1.0.jar",
                       "sha256":  "87e2702152d795efd8548b3a1ec9471469d7c705db1ec199a465807720ddcdcd",
                       "size":  95850
+                  },
+                  {
+                      "path":  "mods/TombManyGraves-1.12-4.2.0.jar",
+                      "url":  "client/mods/TombManyGraves-1.12-4.2.0.jar",
+                      "sha256":  "3fef07b3124a16250645c9549b9b67e0a85dde29b5b27b16d33581b531f25fce",
+                      "size":  150657
                   },
                   {
                       "path":  "mods/torohealth-1.12.2-11.jar",
@@ -1948,6 +1960,12 @@
                       "size":  140757
                   },
                   {
+                      "path":  "resources/tombmanygraves/lang/ru_ru.lang",
+                      "url":  "client/resources/tombmanygraves/lang/ru_ru.lang",
+                      "sha256":  "15a82f19033bb80f227db7b1c6af42be6d9d43656ceae54557a6bfc99dd051c4",
+                      "size":  119
+                  },
+                  {
                       "path":  "resources/trashcans/lang/ru_ru.lang",
                       "url":  "client/resources/trashcans/lang/ru_ru.lang",
                       "sha256":  "b0b159881f5a7ea5dcb6fbc8f0bbf3fcd074df42fc5fd04c21103ea5bf3fa824",
@@ -2021,8 +2039,10 @@
                   }
               ],
     "deletedPaths":  [
+                         "config/corpse.cfg",
                          "config/surge.cfg",
                          "mods/aetheric-convergence-0.1.0-alpha.jar",
+                         "mods/aetheric-convergence-0.2.0-alpha.jar",
                          "mods/applied-thaumaturgy-matrix-automation-0.1.0-alpha.jar",
                          "mods/arcane-patternworks-0.2.0-alpha.jar",
                          "mods/arcane-patternworks-0.3.0-alpha.jar",
@@ -2032,6 +2052,7 @@
                          "mods/arcane-patternworks-1.0.0.jar",
                          "mods/arcane-patternworks-1.0.1.jar",
                          "mods/arcane-patternworks-1.0.2.jar",
+                         "mods/corpse-1.12.2-1.0.8.jar",
                          "mods/surge-1.12.2-2.0.77.jar"
                      ]
 }

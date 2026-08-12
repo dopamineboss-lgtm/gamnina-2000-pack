@@ -10,5 +10,8 @@ mods/arcane-patternworks-1.0.0.jar
 mods/arcane-patternworks-1.0.1.jar
 mods/arcane-patternworks-1.0.2.jar
 mods/aetheric-convergence-0.1.0-alpha.jar
+mods/aetheric-convergence-0.2.0-alpha.jar
 mods/surge-1.12.2-2.0.77.jar
 config/surge.cfg
+mods/corpse-1.12.2-1.0.8.jar
+config/corpse.cfg
