@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "version":  "gamnina-2000-2026.08.12-091702",
+    "version":  "gamnina-2000-2026.08.12-101756",
     "bundleResource":  "",
     "files":  [
                   {
@@ -512,6 +512,12 @@
                       "url":  "client/config/quarryplus/quarryplus_noDigBlocks.json",
                       "sha256":  "dd6b21059b56b4391cd1480f9a7dd6908460767cdbc09d10df63a368725ab0e9",
                       "size":  1235
+                  },
+                  {
+                      "path":  "config/randompatches.cfg",
+                      "url":  "client/config/randompatches.cfg",
+                      "sha256":  "6fd2b5839c1b148b12ffd24a5bc05fe30a826a115c3913193e66990088357872",
+                      "size":  9699
                   },
                   {
                       "path":  "config/reccomplex.cfg",
@@ -1328,6 +1334,12 @@
                       "url":  "client/mods/ProjectRed-1.12.2-4.9.4.120-world.jar",
                       "sha256":  "6b763b939c4a8517ac7fbb2a3cc7267d67e25823b60cf4231443eca3bb681c2e",
                       "size":  501169
+                  },
+                  {
+                      "path":  "mods/randompatches-1.12.2-1.22.1.10.jar",
+                      "url":  "client/mods/randompatches-1.12.2-1.22.1.10.jar",
+                      "sha256":  "c6d836b4d14223999afcd9df143076a5a709ff2009d6604382c346d1a258284b",
+                      "size":  293231
                   },
                   {
                       "path":  "mods/RecurrentComplex-1.4.8.7.jar",
