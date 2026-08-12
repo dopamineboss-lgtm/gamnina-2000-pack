@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "version":  "gamnina-2000-2026.08.12-002641",
+    "version":  "gamnina-2000-2026.08.12-013052",
     "bundleResource":  "",
     "files":  [
                   {
@@ -36,8 +36,8 @@
                   {
                       "path":  "config/AppliedEnergistics2/AppliedEnergistics2.cfg",
                       "url":  "client/config/AppliedEnergistics2/AppliedEnergistics2.cfg",
-                      "sha256":  "3a02885dfd2cb53019d75c8924bff80c6188f42f1b0a4b7a45ae3ca914fa726c",
-                      "size":  17423
+                      "sha256":  "bfb4582a557b52aa07fdeb08c9ec86ae44561ddf62dfa7b1bf52e950aafdacf7",
+                      "size":  17421
                   },
                   {
                       "path":  "config/AppliedEnergistics2/CustomRecipes.cfg",
@@ -820,10 +820,10 @@
                       "size":  33683
                   },
                   {
-                      "path":  "mods/arcane-patternworks-1.0.1.jar",
-                      "url":  "client/mods/arcane-patternworks-1.0.1.jar",
-                      "sha256":  "c061387e0042f7439100ce152c1fe8fc890485b60661b95574ddcc9ea03af4c0",
-                      "size":  704685
+                      "path":  "mods/arcane-patternworks-1.0.2.jar",
+                      "url":  "client/mods/arcane-patternworks-1.0.2.jar",
+                      "sha256":  "d02e20510d30f394f8d25930f47f2636da6f6df8a6b6190f1c3cd322fa654d68",
+                      "size":  711653
                   },
                   {
                       "path":  "mods/Baubles-1.12-1.5.2.jar",
@@ -2030,6 +2030,7 @@
                          "mods/arcane-patternworks-0.4.1-alpha.jar",
                          "mods/arcane-patternworks-0.6.0-alpha.jar",
                          "mods/arcane-patternworks-1.0.0.jar",
+                         "mods/arcane-patternworks-1.0.1.jar",
                          "mods/surge-1.12.2-2.0.77.jar"
                      ]
 }
