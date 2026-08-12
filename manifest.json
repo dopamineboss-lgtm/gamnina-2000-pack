@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "version":  "gamnina-2000-2026.08.12-114714",
+    "version":  "gamnina-2000-2026.08.12-122214",
     "bundleResource":  "",
     "files":  [
                   {
@@ -734,6 +734,12 @@
                       "url":  "client/config/worldedit/worldedit.properties",
                       "sha256":  "546264c5e73410435a1b36ad583414fc896126a9301d20cb01469aa626d0fff1",
                       "size":  1056
+                  },
+                  {
+                      "path":  "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json",
+                      "url":  "client/config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json",
+                      "sha256":  "d5c496bae40ae3ccf94dfee63d598963c316f4c1688a9beb7f4831e991f23960",
+                      "size":  6109
                   },
                   {
                       "path":  "config/yabba.cfg",
@@ -2065,12 +2071,8 @@
     "deletedPaths":  [
                          "config/corpse.cfg",
                          "config/surge.cfg",
-                         "mods/!mixinbooter-10.7.jar",
-                         "mods/_supermartijn642corelib-1.1.18a-forge-mc1.12 (1).jar",
-                         "mods/AdditionalEnchantedMiner-1.12.2-12.5.4.jar",
                          "mods/aetheric-convergence-0.1.0-alpha.jar",
                          "mods/aetheric-convergence-0.2.0-alpha.jar",
-                         "mods/AmbientSounds_v3.0.9_mc1.12.2.jar",
                          "mods/applied-thaumaturgy-matrix-automation-0.1.0-alpha.jar",
                          "mods/arcane-patternworks-0.2.0-alpha.jar",
                          "mods/arcane-patternworks-0.3.0-alpha.jar",
@@ -2080,44 +2082,7 @@
                          "mods/arcane-patternworks-1.0.0.jar",
                          "mods/arcane-patternworks-1.0.1.jar",
                          "mods/arcane-patternworks-1.0.2.jar",
-                         "mods/Bookshelf-1.12.2-2.3.585.jar",
-                         "mods/buildcraft-builders-7.99.24.1.jar",
-                         "mods/buildcraft-core-7.99.24.1.jar",
-                         "mods/buildcraft-energy-7.99.24.1.jar",
-                         "mods/buildcraft-factory-7.99.24.1.jar",
-                         "mods/buildcraft-robotics-7.99.24.1.jar",
-                         "mods/buildcraft-silicon-7.99.24.1.jar",
-                         "mods/buildcraft-transport-7.99.24.1.jar",
-                         "mods/ChickenChunks_1.12_2.4.0.70_universal.jar",
-                         "mods/ChunkAnimator_MC1.12_1.2.jar",
-                         "mods/CleanView_1.12.2_v1.jar",
-                         "mods/CoFHCore-1.12.2-4.6.3.27-universal.jar",
-                         "mods/CoFHWorld-1.12.2-1.3.1.7-universal.jar",
-                         "mods/Controlling-3.0.12.2.jar",
                          "mods/corpse-1.12.2-1.0.8.jar",
-                         "mods/EnergyControl-1.12.2-0.1.15.jar",
-                         "mods/environmentalcreepers-1.12.2-1.5.0.jar",
-                         "mods/foamfix-0.10.14-1.12.2.jar",
-                         "mods/Forgelin_1.8.2.jar",
-                         "mods/ForgeMultipart-1.12.2-2.6.1.81-universal.jar",
-                         "mods/HammerLib-1.12.2-2.0.6.31.jar",
-                         "mods/inventorysorter_1.12.2_1.12.049.jar",
-                         "mods/jei_1.12.2-4.16.5.1023.jar",
-                         "mods/LibraryEx-1.12.2-1.1.3.jar",
-                         "mods/mobends_0.24_for_MC_1.12.jar",
-                         "mods/MouseTweaks-2.10-mc1.12.2.jar",
-                         "mods/NetherEx-1.12.2-2.1.3.jar",
-                         "mods/omlib-1.12.2-3.1.3-246.jar",
-                         "mods/RedstoneFlux-1.12-2.1.0.6-universal.jar",
-                         "mods/ShulkerTooltip_1.12.2_1.5.2.jar",
-                         "mods/sit_1.12.x_v1.1.1.jar",
-                         "mods/stg-1.12-1.2.1.jar",
-                         "mods/surge-1.12.2-2.0.77.jar",
-                         "mods/ThaumicAdditions-1.12.2-12.6.7.jar",
-                         "mods/thaumicbases-3.3.500.6r.jar",
-                         "mods/thaumic-energistics-extended-life-1.12.2-2.3.5.jar",
-                         "mods/thaumicwonders-2.3.2.jar",
-                         "mods/Xaeros_Minimap_1.19.4_Forge_1.12.jar",
-                         "mods/XaerosWorldMap_1.5.2_Forge_1.12.jar"
+                         "mods/surge-1.12.2-2.0.77.jar"
                      ]
 }
