@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "version":  "gamnina-2000-2026.08.13-015812",
+    "version":  "gamnina-2000-2026.08.13-235757",
     "bundleResource":  "",
     "files":  [
                   {
@@ -1118,6 +1118,12 @@
                       "url":  "client/mods/FTBUtilities-5.4.1.131.jar",
                       "sha256":  "e458fe39aba9ba28122496e54f826e4f61df515ed1f8d0c70cc9e56f67a5404a",
                       "size":  425832
+                  },
+                  {
+                      "path":  "mods/gamnina-tree-harvester-compat-1.0.0.jar",
+                      "url":  "client/mods/gamnina-tree-harvester-compat-1.0.0.jar",
+                      "sha256":  "b2160854eda1e0e6f522af13effc381f45789c282ce79c1ee0345674ec6c35a1",
+                      "size":  5682
                   },
                   {
                       "path":  "mods/gravitationsuite-3.1.1.jar",
