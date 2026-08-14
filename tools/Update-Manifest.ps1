@@ -25,11 +25,17 @@ if (-not (Test-Path -LiteralPath $clientRoot -PathType Container)) {
 }
 
 $previousPaths = [Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+$previousDeletedPaths = [Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
 if (Test-Path -LiteralPath $manifestPath -PathType Leaf) {
     $previous = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
     foreach ($entry in @($previous.files)) {
         if (-not [string]::IsNullOrWhiteSpace([string]$entry.path)) {
             $null = $previousPaths.Add(([string]$entry.path).Replace('\', '/'))
+        }
+    }
+    foreach ($oldPath in @($previous.deletedPaths)) {
+        if (-not [string]::IsNullOrWhiteSpace([string]$oldPath)) {
+            $null = $previousDeletedPaths.Add(([string]$oldPath).Replace('\', '/'))
         }
     }
 }
@@ -66,6 +72,11 @@ foreach ($file in Get-ChildItem -LiteralPath $clientRoot -Recurse -File | Sort-O
 }
 
 $deleted = [Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+foreach ($oldPath in $previousDeletedPaths) {
+    if (-not $currentPaths.Contains($oldPath)) {
+        $null = $deleted.Add($oldPath)
+    }
+}
 foreach ($oldPath in $previousPaths) {
     if (-not $currentPaths.Contains($oldPath)) {
         $null = $deleted.Add($oldPath)
