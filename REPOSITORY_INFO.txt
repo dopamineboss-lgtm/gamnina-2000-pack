@@ -8,9 +8,11 @@ Repository visibility: PUBLIC
 Manifest URL used by launcher:
 https://raw.githubusercontent.com/dopamineboss-lgtm/gamnina-2000-pack/main/manifest.json
 
+Forge 1.20.1 Port Lab manifest URL:
+https://raw.githubusercontent.com/dopamineboss-lgtm/gamnina-2000-pack/main/profiles/forge-1.20.1/manifest.json
+
 Direct launcher URL after the first push:
 https://raw.githubusercontent.com/dopamineboss-lgtm/gamnina-2000-pack/main/launcher/Gamnina2000Launcher.exe
 
 Do not rename the repository, owner, main branch, manifest.json or client folder
 without rebuilding the launcher configuration.
-

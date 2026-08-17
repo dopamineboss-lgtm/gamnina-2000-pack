@@ -38,6 +38,31 @@ $actualFiles = @(Get-ChildItem -LiteralPath $clientRoot -Recurse -File)
 if ($actualFiles.Count -ne $seen.Count) {
     throw "File count differs: client=$($actualFiles.Count), manifest=$($seen.Count). Run the manifest update command."
 }
+
+$modernClientRoot = Join-Path $repoRoot 'profiles\forge-1.20.1\client'
+$modernManifestPath = Join-Path $repoRoot 'profiles\forge-1.20.1\manifest.json'
+if (-not (Test-Path -LiteralPath $modernClientRoot -PathType Container)) { throw 'Forge 1.20.1 client folder was not found.' }
+if (-not (Test-Path -LiteralPath $modernManifestPath -PathType Leaf)) { throw 'Forge 1.20.1 manifest was not found.' }
+$modernManifest = Get-Content -LiteralPath $modernManifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
+if ([int]$modernManifest.schemaVersion -ne 2) { throw 'Forge 1.20.1 schemaVersion must be 2.' }
+$modernSeen = [Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+$modernPrefix = [IO.Path]::GetFullPath($modernClientRoot).TrimEnd([IO.Path]::DirectorySeparatorChar) + [IO.Path]::DirectorySeparatorChar
+foreach ($entry in @($modernManifest.files)) {
+    $relative = ([string]$entry.path).Replace('/', [IO.Path]::DirectorySeparatorChar)
+    if (-not $modernSeen.Add($relative)) { throw "Duplicate Forge 1.20.1 manifest path: $relative" }
+    $target = [IO.Path]::GetFullPath((Join-Path $modernClientRoot $relative))
+    if (-not $target.StartsWith($modernPrefix, [StringComparison]::OrdinalIgnoreCase)) { throw "Forge 1.20.1 path escapes client/: $relative" }
+    if (-not (Test-Path -LiteralPath $target -PathType Leaf)) { throw "Forge 1.20.1 file is missing: $relative" }
+    $item = Get-Item -LiteralPath $target
+    if ($item.Length -ne [long]$entry.size) { throw "Incorrect Forge 1.20.1 size: $relative" }
+    $hash = (Get-FileHash -LiteralPath $target -Algorithm SHA256).Hash.ToLowerInvariant()
+    if ($hash -ne ([string]$entry.sha256).ToLowerInvariant()) { throw "Incorrect Forge 1.20.1 SHA-256: $relative" }
+    if ($item.Length -ge 100MB) { throw "Forge 1.20.1 file exceeds GitHub's limit: $relative" }
+}
+$modernActualFiles = @(Get-ChildItem -LiteralPath $modernClientRoot -Recurse -File | Where-Object { $_.Name -ne '.gitkeep' })
+if ($modernActualFiles.Count -ne $modernSeen.Count) {
+    throw "Forge 1.20.1 file count differs: client=$($modernActualFiles.Count), manifest=$($modernSeen.Count)."
+}
 $launcher = Get-Item -LiteralPath $launcherPath
 $coreLauncher = Get-Item -LiteralPath $coreLauncherPath
 if ($launcher.Length -ge 100MB -or $coreLauncher.Length -ge 100MB) { throw 'A launcher executable exceeds GitHub hard file limit.' }
@@ -59,5 +84,6 @@ if ($channel['url'] -ne 'https://raw.githubusercontent.com/dopamineboss-lgtm/gam
 Write-Host 'VERIFICATION PASSED' -ForegroundColor Green
 Write-Host "Version: $($manifest.version)"
 Write-Host "Client files: $($seen.Count)"
+Write-Host "Forge 1.20.1 files: $($modernSeen.Count)"
 Write-Host "Bootstrap: $([math]::Round($launcher.Length / 1KB, 1)) KiB"
 Write-Host "Core launcher: $([math]::Round($coreLauncher.Length / 1MB, 1)) MiB"

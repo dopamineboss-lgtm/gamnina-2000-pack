@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "version":  "gamnina-2000-2026.08.14-131410",
+    "version":  "gamnina-2000-2026.08.16-014543",
     "bundleResource":  "",
     "files":  [
                   {
@@ -290,6 +290,12 @@
                       "url":  "client/config/IC2.ini",
                       "sha256":  "cc51ee8fc55b300cac5bead75fddf951635eac26c7bf83c460ca5c108e1af120",
                       "size":  11952
+                  },
+                  {
+                      "path":  "config/ic2/macerator.ini",
+                      "url":  "client/config/ic2/macerator.ini",
+                      "sha256":  "f98ec6b4bf942f62e7db0a399cc7b6ca1772411ccb0741f56a8cf50c08bcb471",
+                      "size":  8485
                   },
                   {
                       "path":  "config/instantunify.cfg",

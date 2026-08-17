@@ -104,6 +104,76 @@ $manifest = [ordered]@{
 $json = $manifest | ConvertTo-Json -Depth 8
 [IO.File]::WriteAllText($manifestPath, $json + [Environment]::NewLine, [Text.UTF8Encoding]::new($false))
 
+# The 1.20.1 porting lab is a completely separate launcher profile. Generate
+# its manifest in the same one-click operation so old and modern mods can
+# never be mixed in one game directory.
+$modernProfileRoot = Join-Path $repoRoot 'profiles\forge-1.20.1'
+$modernClientRoot = Join-Path $modernProfileRoot 'client'
+$modernManifestPath = Join-Path $modernProfileRoot 'manifest.json'
+if (-not (Test-Path -LiteralPath $modernClientRoot -PathType Container)) {
+    throw "Forge 1.20.1 client folder was not found: $modernClientRoot"
+}
+
+$modernPreviousPaths = [Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+$modernPreviousDeleted = [Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+if (Test-Path -LiteralPath $modernManifestPath -PathType Leaf) {
+    $modernPrevious = Get-Content -LiteralPath $modernManifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
+    foreach ($entry in @($modernPrevious.files)) {
+        if (-not [string]::IsNullOrWhiteSpace([string]$entry.path)) {
+            $null = $modernPreviousPaths.Add(([string]$entry.path).Replace('\', '/'))
+        }
+    }
+    foreach ($oldPath in @($modernPrevious.deletedPaths)) {
+        if (-not [string]::IsNullOrWhiteSpace([string]$oldPath)) {
+            $null = $modernPreviousDeleted.Add(([string]$oldPath).Replace('\', '/'))
+        }
+    }
+}
+
+$modernFiles = [Collections.Generic.List[object]]::new()
+$modernCurrentPaths = [Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+$modernPrefix = $modernClientRoot.TrimEnd([IO.Path]::DirectorySeparatorChar) + [IO.Path]::DirectorySeparatorChar
+foreach ($file in Get-ChildItem -LiteralPath $modernClientRoot -Recurse -File | Sort-Object FullName) {
+    if ($file.Name -eq '.gitkeep') { continue }
+    $relative = $file.FullName.Substring($modernPrefix.Length).Replace('\', '/')
+    $segments = $relative.Split('/')
+    $root = $segments[0]
+    $isAllowed = ($segments.Count -eq 1 -and $root -in $allowedRootFiles) -or
+                 ($segments.Count -gt 1 -and $root -in $allowedDirectoryRoots)
+    if (-not $isAllowed) { throw "Unsupported file in Forge 1.20.1 client/: $relative" }
+    if ($file.Length -ge $githubHardFileLimit) { throw "GitHub rejects files of 100 MiB or larger: $relative" }
+    if ($file.Length -ge $githubWarningFileLimit) {
+        $warnings.Add("Large Forge 1.20.1 file: $relative - $([math]::Round($file.Length / 1MB, 1)) MiB")
+    }
+
+    $null = $modernCurrentPaths.Add($relative)
+    $escapedRelative = ($segments | ForEach-Object { [Uri]::EscapeDataString($_) }) -join '/'
+    $modernFiles.Add([ordered]@{
+        path = $relative
+        url = "profiles/forge-1.20.1/client/$escapedRelative"
+        sha256 = (Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+        size = [long]$file.Length
+    })
+}
+
+$modernDeleted = [Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+foreach ($oldPath in $modernPreviousDeleted) {
+    if (-not $modernCurrentPaths.Contains($oldPath)) { $null = $modernDeleted.Add($oldPath) }
+}
+foreach ($oldPath in $modernPreviousPaths) {
+    if (-not $modernCurrentPaths.Contains($oldPath)) { $null = $modernDeleted.Add($oldPath) }
+}
+$modernVersion = 'gamnina-portlab-1.20.1-' + [DateTime]::UtcNow.ToString('yyyy.MM.dd-HHmmss')
+$modernManifest = [ordered]@{
+    schemaVersion = 2
+    version = $modernVersion
+    bundleResource = ''
+    files = @($modernFiles)
+    deletedPaths = @($modernDeleted | Sort-Object)
+}
+$modernJson = $modernManifest | ConvertTo-Json -Depth 8
+[IO.File]::WriteAllText($modernManifestPath, $modernJson + [Environment]::NewLine, [Text.UTF8Encoding]::new($false))
+
 if (-not (Test-Path -LiteralPath $bootstrapPath -PathType Leaf)) {
     throw "Bootstrap launcher was not found: $bootstrapPath"
 }
@@ -135,5 +205,6 @@ $launcherChecksums = @(
 $totalBytes = ($files | ForEach-Object { [long]$_['size'] } | Measure-Object -Sum).Sum
 Write-Host "Manifest updated: $version" -ForegroundColor Green
 Write-Host "Files: $($files.Count); deletions: $($deleted.Count); size: $([math]::Round($totalBytes / 1MB, 1)) MiB"
+Write-Host "Forge 1.20.1 manifest: $modernVersion; files: $($modernFiles.Count); deletions: $($modernDeleted.Count)" -ForegroundColor Cyan
 Write-Host "Bootstrap: $([math]::Round($bootstrapItem.Length / 1KB, 1)) KiB; core launcher: $([math]::Round($coreLauncherItem.Length / 1MB, 1)) MiB"
 foreach ($warning in $warnings) { Write-Warning $warning }
