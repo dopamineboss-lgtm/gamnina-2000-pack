@@ -1,6 +1,6 @@
 {
     "schemaVersion":  2,
-    "version":  "gamnina-2000-2026.08.16-014543",
+    "version":  "gamnina-2000-2026.08.18-080215",
     "bundleResource":  "",
     "files":  [
                   {
@@ -102,8 +102,8 @@
                   {
                       "path":  "config/carryon.cfg",
                       "url":  "client/config/carryon.cfg",
-                      "sha256":  "1b3b8aca28a4b6777ad5e8af42e95bce507a3b1b2638b430a18e092972b597de",
-                      "size":  15449
+                      "sha256":  "8ab0d992de13287af0e1092f13086f50e3c2e12a579998e3c731a0205cd0fa35",
+                      "size":  15665
                   },
                   {
                       "path":  "config/ChickenChunks.cfg",
@@ -794,6 +794,12 @@
                       "url":  "client/mods/AdditionalEnchantedMiner-1.12.2-12.5.7.jar",
                       "sha256":  "9f058a429de6b36b2446d2a5eb722f2084afc8b474b547a45eac1a8614b9ad43",
                       "size":  2101518
+                  },
+                  {
+                      "path":  "mods/Additional-Pipes-Mod-1.12.2.jar",
+                      "url":  "client/mods/Additional-Pipes-Mod-1.12.2.jar",
+                      "sha256":  "175bd7e1d455d93d7f3b9d3edbcab823c653f386cd9b46e319afe8c786bc1c4f",
+                      "size":  227670
                   },
                   {
                       "path":  "mods/Advanced+Solar+Panels-4.3.0.jar",
