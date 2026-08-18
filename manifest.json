@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "gamnina-2000-2026.08.18-122230",
+  "version": "gamnina-2000-2026.08.18-134109",
   "bundleResource": "",
   "files": [
     {
@@ -1130,6 +1130,12 @@
       "url": "client/mods/FTBUtilities-5.4.1.131.jar",
       "sha256": "e458fe39aba9ba28122496e54f826e4f61df515ed1f8d0c70cc9e56f67a5404a",
       "size": 425832
+    },
+    {
+      "path": "mods/gamnina-dispenser-shears-backport-1.0.0.jar",
+      "url": "client/mods/gamnina-dispenser-shears-backport-1.0.0.jar",
+      "sha256": "728412c839e9aee108ca2a58694cd17480612263e808eebe410c9c555efee061",
+      "size": 5649
     },
     {
       "path": "mods/gamnina-tree-harvester-compat-1.0.0.jar",
