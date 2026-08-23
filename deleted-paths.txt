@@ -21,3 +21,6 @@ mods/surge-1.12.2-2.0.77.jar
 config/surge.cfg
 mods/corpse-1.12.2-1.0.8.jar
 config/corpse.cfg
+mods/tc6aspects4jei-0.0.2a.jar
+config/tc6aspects4jei.cfg
+resources/tc6aspects4jei/lang/ru_ru.lang

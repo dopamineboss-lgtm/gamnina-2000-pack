@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "gamnina-2000-2026.08.23-102627",
+  "version": "gamnina-2000-2026.08.23-124209",
   "bundleResource": "",
   "files": [
     {
@@ -670,6 +670,12 @@
       "size": 53
     },
     {
+      "path": "config/thaumicjei.cfg",
+      "url": "client/config/thaumicjei.cfg",
+      "sha256": "6a862c46f7f7cb5d5284ba50e65c33de8e9882ac83de4822b965d4403a38947d",
+      "size": 606
+    },
+    {
       "path": "config/thaumictinkerer.cfg",
       "url": "client/config/thaumictinkerer.cfg",
       "sha256": "3162caf89c82d8aa6bfbb8bc372259aff4bae8f5094f041e10e65a3b6774d070",
@@ -1144,6 +1150,12 @@
       "size": 6459
     },
     {
+      "path": "mods/gamnina-thaumic-aspect-jei-fix-1.0.0.jar",
+      "url": "client/mods/gamnina-thaumic-aspect-jei-fix-1.0.0.jar",
+      "sha256": "639965e6d9118baf6d76a45b151d13d10f14a6f0571559004c2094ada04fef27",
+      "size": 4960
+    },
+    {
       "path": "mods/gamnina-thaumic-recipe-conflict-fix-1.0.0.jar",
       "url": "client/mods/gamnina-thaumic-recipe-conflict-fix-1.0.0.jar",
       "sha256": "31306308b32a2e6fba91bd59a6e2941fece0db9c8d4ebd687fa237062b99071d",
@@ -1454,12 +1466,6 @@
       "url": "client/mods/stg-1.12.2-1.2.3.jar",
       "sha256": "0ab0cb80822dd58ed83393edff83ac0497e1f12cbf4ceb9dacd963e2a949d2cb",
       "size": 24024
-    },
-    {
-      "path": "mods/tc6aspects4jei-0.0.2a.jar",
-      "url": "client/mods/tc6aspects4jei-0.0.2a.jar",
-      "sha256": "89420c44b4514ef5e73cb12d76020be4509337c121ef0554d52fdade555deda1",
-      "size": 15236
     },
     {
       "path": "mods/TConstruct-1.12.2-2.13.0.183.jar",
@@ -1966,12 +1972,6 @@
       "size": 298
     },
     {
-      "path": "resources/tc6aspects4jei/lang/ru_ru.lang",
-      "url": "client/resources/tc6aspects4jei/lang/ru_ru.lang",
-      "sha256": "93e61384449163a82ca2dd291c2d09ce5ede59c2191b5fb55552c5eb46222cce",
-      "size": 187
-    },
-    {
       "path": "resources/tconstruct/lang/ru_ru.lang",
       "url": "client/resources/tconstruct/lang/ru_ru.lang",
       "sha256": "31b92d7e42436079b0eb1c0287f15cfc662ab2ac096c109e12c8063b43bef38f",
@@ -2107,6 +2107,7 @@
   "deletedPaths": [
     "config/corpse.cfg",
     "config/surge.cfg",
+    "config/tc6aspects4jei.cfg",
     "mods/aetheric-convergence-0.1.0-alpha.jar",
     "mods/aetheric-convergence-0.2.0-alpha.jar",
     "mods/applied-thaumaturgy-matrix-automation-0.1.0-alpha.jar",
@@ -2126,6 +2127,8 @@
     "mods/arcane-patternworks-1.1.4.jar",
     "mods/corpse-1.12.2-1.0.8.jar",
     "mods/gamnina-dispenser-shears-backport-1.0.0.jar",
-    "mods/surge-1.12.2-2.0.77.jar"
+    "mods/surge-1.12.2-2.0.77.jar",
+    "mods/tc6aspects4jei-0.0.2a.jar",
+    "resources/tc6aspects4jei/lang/ru_ru.lang"
   ]
 }
