@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "gamnina-2000-2026.08.23-124209",
+  "version": "gamnina-2000-2026.08.23-140116",
   "bundleResource": "",
   "files": [
     {
@@ -1154,6 +1154,12 @@
       "url": "client/mods/gamnina-thaumic-aspect-jei-fix-1.0.0.jar",
       "sha256": "639965e6d9118baf6d76a45b151d13d10f14a6f0571559004c2094ada04fef27",
       "size": 4960
+    },
+    {
+      "path": "mods/gamnina-thaumic-log-aspect-fix-1.0.0.jar",
+      "url": "client/mods/gamnina-thaumic-log-aspect-fix-1.0.0.jar",
+      "sha256": "2cb6368ced1d15a62e0d01b6d9034d0e6010b53627fa42f4411c4cfd4cee8d50",
+      "size": 4332
     },
     {
       "path": "mods/gamnina-thaumic-recipe-conflict-fix-1.0.0.jar",
