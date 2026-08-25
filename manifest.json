@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "gamnina-2000-2026.08.23-140116",
+  "version": "gamnina-2000-2026.08.25-065227",
   "bundleResource": "",
   "files": [
     {
@@ -1156,10 +1156,10 @@
       "size": 4960
     },
     {
-      "path": "mods/gamnina-thaumic-log-aspect-fix-1.0.0.jar",
-      "url": "client/mods/gamnina-thaumic-log-aspect-fix-1.0.0.jar",
-      "sha256": "2cb6368ced1d15a62e0d01b6d9034d0e6010b53627fa42f4411c4cfd4cee8d50",
-      "size": 4332
+      "path": "mods/gamnina-thaumic-log-aspect-fix-1.1.0.jar",
+      "url": "client/mods/gamnina-thaumic-log-aspect-fix-1.1.0.jar",
+      "sha256": "0ca67de60233f476a2d35bb71c9f14eb8c7e5e25f6c99c07d792e212f58af484",
+      "size": 8792
     },
     {
       "path": "mods/gamnina-thaumic-recipe-conflict-fix-1.0.0.jar",
@@ -2133,6 +2133,7 @@
     "mods/arcane-patternworks-1.1.4.jar",
     "mods/corpse-1.12.2-1.0.8.jar",
     "mods/gamnina-dispenser-shears-backport-1.0.0.jar",
+    "mods/gamnina-thaumic-log-aspect-fix-1.0.0.jar",
     "mods/surge-1.12.2-2.0.77.jar",
     "mods/tc6aspects4jei-0.0.2a.jar",
     "resources/tc6aspects4jei/lang/ru_ru.lang"
