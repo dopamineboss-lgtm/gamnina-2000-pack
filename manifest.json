@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "gamnina-2000-2026.08.25-083803",
+  "version": "gamnina-2000-2026.08.25-091806",
   "bundleResource": "",
   "files": [
     {
@@ -1462,10 +1462,10 @@
       "size": 24024
     },
     {
-      "path": "mods/tc6-infusion-autocrafting-1.2.0.jar",
-      "url": "client/mods/tc6-infusion-autocrafting-1.2.0.jar",
-      "sha256": "ce1a9c074298ddc524acb44bc395c061fec3f3b5bb15d756eae4d6504c5698bd",
-      "size": 761003
+      "path": "mods/tc6-infusion-autocrafting-1.2.1.jar",
+      "url": "client/mods/tc6-infusion-autocrafting-1.2.1.jar",
+      "sha256": "5f48b3c910c5b8f3ca0f5058a3e66580457c12b6e1ba07032cf878708ef1abba",
+      "size": 772771
     },
     {
       "path": "mods/TConstruct-1.12.2-2.13.0.183.jar",
@@ -2126,6 +2126,7 @@
     "mods/gamnina-thaumic-log-aspect-fix-1.0.0.jar",
     "mods/gamnina-thaumic-log-aspect-fix-1.1.0.jar",
     "mods/surge-1.12.2-2.0.77.jar",
+    "mods/tc6-infusion-autocrafting-1.2.0.jar",
     "mods/tc6aspects4jei-0.0.2a.jar",
     "mods/thaumicspeedup-5.0.jar",
     "resources/tc6aspects4jei/lang/ru_ru.lang"
