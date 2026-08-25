@@ -1,11 +1,7 @@
 {
-    "schemaVersion":  2,
-    "version":  "gamnina-portlab-1.20.1-2026.08.25-075101",
-    "bundleResource":  "",
-    "files":  [
-
-              ],
-    "deletedPaths":  [
-
-                     ]
+  "schemaVersion": 2,
+  "version": "gamnina-portlab-1.20.1-2026.08.25-083803",
+  "bundleResource": "",
+  "files": [],
+  "deletedPaths": []
 }
