@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "gamnina-2000-2026.08.25-065227",
+  "version": "gamnina-2000-2026.08.25-071253",
   "bundleResource": "",
   "files": [
     {
@@ -1156,12 +1156,6 @@
       "size": 4960
     },
     {
-      "path": "mods/gamnina-thaumic-log-aspect-fix-1.1.0.jar",
-      "url": "client/mods/gamnina-thaumic-log-aspect-fix-1.1.0.jar",
-      "sha256": "0ca67de60233f476a2d35bb71c9f14eb8c7e5e25f6c99c07d792e212f58af484",
-      "size": 8792
-    },
-    {
       "path": "mods/gamnina-thaumic-recipe-conflict-fix-1.0.0.jar",
       "url": "client/mods/gamnina-thaumic-recipe-conflict-fix-1.0.0.jar",
       "sha256": "31306308b32a2e6fba91bd59a6e2941fece0db9c8d4ebd687fa237062b99071d",
@@ -1556,12 +1550,6 @@
       "url": "client/mods/ThaumicJEI-1.12.2-1.7.0.jar",
       "sha256": "df34181baa520fc3723c5a9a776e5ede1e550df55705cdb3bbeb9ed8675bc2fa",
       "size": 58100
-    },
-    {
-      "path": "mods/thaumicspeedup-5.0.jar",
-      "url": "client/mods/thaumicspeedup-5.0.jar",
-      "sha256": "bc0c8ce43bf2d5c28374e6dd802946c0f239437bd9586ff5e39037f4c875124c",
-      "size": 194860
     },
     {
       "path": "mods/ThaumicTerminal-1.0.12.jar",
@@ -2134,8 +2122,10 @@
     "mods/corpse-1.12.2-1.0.8.jar",
     "mods/gamnina-dispenser-shears-backport-1.0.0.jar",
     "mods/gamnina-thaumic-log-aspect-fix-1.0.0.jar",
+    "mods/gamnina-thaumic-log-aspect-fix-1.1.0.jar",
     "mods/surge-1.12.2-2.0.77.jar",
     "mods/tc6aspects4jei-0.0.2a.jar",
+    "mods/thaumicspeedup-5.0.jar",
     "resources/tc6aspects4jei/lang/ru_ru.lang"
   ]
 }
